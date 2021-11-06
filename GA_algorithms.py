@@ -3,14 +3,15 @@
 
 # pip install scikit-opt
 
+
 # 遗传算法
 # 定义问题
 from sko.PSO import PSO
 from sko.DE import DE
 import matplotlib.pyplot as plt
-import pandas as pd
 from sko.GA import GA
 import numpy as np
+import pandas as pd
 
 
 def obj_func(p):
